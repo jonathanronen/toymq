@@ -2,7 +2,6 @@
 This is a very simple MQ to pass simple messages between a producer and a consumer.
 
 ### Server
-    python server.py
     python -mtoymq.server
 
 And you can start posting and poping messages:

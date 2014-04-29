@@ -5,7 +5,13 @@ This is a very simple MQ to pass simple messages between a producer and a consum
     python setup.py install
 
 ### Server
+
     python -mtoymq.server
+
+or
+
+    gunicorn toymq.server:app -b 0.0.0.0:26016
+
 
 And you can start posting and poping messages:
 
